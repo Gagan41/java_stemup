@@ -1,4 +1,4 @@
-package JavaBasics;
+package JavaBasics.array;
 import java.util.Scanner;
 
 public class SumOfArray {

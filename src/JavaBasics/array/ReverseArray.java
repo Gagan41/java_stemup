@@ -1,4 +1,4 @@
-package JavaBasics;
+package JavaBasics.array;
 import java.util.Scanner;
 
 //also used to print in descending order without built in functions(sort first then display)

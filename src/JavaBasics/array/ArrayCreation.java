@@ -1,4 +1,4 @@
-package JavaBasics;
+package JavaBasics.array;
 
 public class ArrayCreation {
     public static void main(String[] args) {
