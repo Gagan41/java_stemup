@@ -13,7 +13,7 @@ public class ArrayMethods {
         int[] num = {1,2,3,4,5};
 
         System.out.println("Original array:"+ Arrays.toString(num));//convert array to string
-        System.out.println(num.getClass().getSimpleName());
+        System.out.println(num.getClass().getSimpleName()); //to ge the data type
 
         Arrays.sort(num);//sort in ascending order
         System.out.println("Sorted array:"+ Arrays.toString(num));
