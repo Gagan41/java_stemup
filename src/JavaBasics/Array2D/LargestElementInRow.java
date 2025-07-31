@@ -5,7 +5,7 @@ public class LargestElementInRow {
          int n = arr.length, m = arr[0].length;
          for(int i=0; i<n; i++){
              int maxEle = arr[i][0];
-             for( int j=1; j<m; j++){
+             for( int j=1; j<m; j++){ // start from 1, since 0 is already used
                  if(arr[i][j]>=maxEle){
                      maxEle = arr[i][j];
                  }
@@ -18,7 +18,7 @@ public class LargestElementInRow {
         int n = arr.length, m = arr[0].length;
         for(int i=0; i<n; i++){
             int minEle = arr[i][0];
-            for( int j=1; j<m; j++){
+            for( int j=1; j<m; j++){ // start from 1, since 0 is already used
                 if(arr[i][j]<=minEle){
                     minEle = arr[i][j];
                 }
@@ -31,7 +31,7 @@ public class LargestElementInRow {
         int n = arr.length, m = arr[0].length;
         for(int j=0; j<m; j++){
             int maxEle = arr[0][j];
-            for( int i=1; i<n; i++){
+            for( int i=1; i<n; i++){ // start from 1, since 0 is already used
                 if(arr[i][j]>=maxEle){
                     maxEle = arr[i][j];
                 }
@@ -44,7 +44,7 @@ public class LargestElementInRow {
         int n = arr.length, m = arr[0].length;
         for(int j=0; j<m; j++){
             int minEle = arr[0][j];
-            for( int i=1; i<n; i++){
+            for( int i=1; i<n; i++){ // start from 1, since 0 is already used
                 if(arr[i][j]<=minEle){
                     minEle = arr[i][j];
                 }
