@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class RemoveSpaceInString {
     public static void remSpace(String str){
-        String res = str.replace(" ","");
-        System.out.println(res);
+        String res = str.replaceAll("\\s+","");
+        System.out.println("output :"+res);
     }
 
     public static void main(String[] args) {
