@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ReverseString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the array elements");
+        System.out.println("Enter the array length");
         int n = sc.nextInt();
 
         String[] fruits = new String[n];
