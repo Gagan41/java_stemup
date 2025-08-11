@@ -4,8 +4,10 @@ public class BubbleSort {
         int n = arr.length;
         boolean swapped;
         for ( int i=0; i<n-1; i++){
+            System.out.println("-"+i+" ");
             swapped = true;
             for (int j=0; j<n-i-1; j++){
+                System.out.println("-"+j+" ");
                 if(arr[j]>arr[j+1]){
                     int temp = arr[j];
                     arr[j] = arr[j+1];
